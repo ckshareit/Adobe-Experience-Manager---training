@@ -1,0 +1,10 @@
+Deleted files:
+
+3. aem-building-full-stack-components\02\demos\demos\full-stack-training\designs
+
+3. aem-building-full-stack-components\05\demos\demos\Feed-sample-content-package
+
+
+
+Download full zip:
+https://drive.google.com/file/d/1jGUQgLuvyEyMg7EIirBpz2nJl2vHJMq1/view?usp=sharing
