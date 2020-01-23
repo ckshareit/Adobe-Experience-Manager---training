@@ -1,0 +1,7 @@
+// Archetype Catalog
+
+https://repo.adobe.com/nexus/content/groups/public/archetype-catalog.xml
+
+// Archetype Generate Command
+
+mvn archetype:generate -DarchetypeRepository=https://repo.adobe.com/nexus/content/groups/public -DarchetypeGroupId=com.adobe.granite.archetypes -DarchetypeArtifactId=aem-project-archetype -DarchetypeVersion=10

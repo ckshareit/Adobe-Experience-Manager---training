@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Simple Project - Example</comment>
+<entry key="createdBy">Snowbum</entry>
+<entry key="name">simple-project-example</entry>
+<entry key="created">2016-10-15T20:24:14.860-0600</entry>
+<entry key="groupId">com.scd</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">simple-project.packages</entry>
+<entry key="description">Example Project package for Pluralsight course - AEM Fundamentals: Building from Proejcts in AEM</entry>
+<entry key="artifactId">simple-project-example</entry>
+<entry key="path">/etc/packages/simple-project.packages/simple-project-example.zip</entry>
+</properties>
