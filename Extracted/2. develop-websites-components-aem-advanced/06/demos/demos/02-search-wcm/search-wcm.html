@@ -1,0 +1,39 @@
+<center data-sly-use.search="search-wcm.js">
+    <form action="${currentPage.path}.html">
+   		 <input size="41" maxlength="2048" name="q" value="${search.queryString}" />
+	 	 <input value="${search.searchButton}" type="submit" />
+	</form>
+</center>
+
+<br />
+
+<!--/* Displays the results for this page */-->
+<div class="searchresult" data-sly-list="${search.hits}">
+<a href="${item.uRL}">
+	<p style="color: rgb(51,102,255);">${item.title}
+        </p>		
+</a>
+    <br/>
+</div>
+<div class="searchresult" data-sly-test="${!search.hits}">${search.noResults}</div>
+
+<br/><br/>
+
+<!--/* Displays the page links on the bottom of the component */-->
+<a data-sly-test="${search.prevPage}" href="${search.prevPage.uRL || '#'}">
+	<p style="color: rgb(51,102,255);">${search.previousText}
+	</p>
+</a>
+
+<div data-sly-list.resultPage="${search.resultPages}" data-sly-unwrap>
+	<div data-sly-test.curPage="${resultPage.isCurrentPage}" data-sly-unwrap>${resultPageList.count}</div>
+	<a data-sly-test="${!curPage}" href="${resultPage.uRL}">
+		<p style="color: rgb(51,102,255);">${resultPageList.count}
+		</p>
+	</a>
+</div>
+
+<a data-sly-test="${search.nextPage}" href="${search.nextPage.uRL || '#'}">
+	<p style="color: rgb(51,102,255);">${search.nextText}
+	</p>
+</a>

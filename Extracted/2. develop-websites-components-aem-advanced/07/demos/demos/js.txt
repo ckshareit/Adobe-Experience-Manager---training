@@ -1,0 +1,2 @@
+//Add Hobbes tests to the clientlib
+SampleTests.js

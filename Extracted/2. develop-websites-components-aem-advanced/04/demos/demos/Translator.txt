@@ -1,0 +1,8 @@
+Translator
+
+http://localhost:4502/libs/cq/i18n/translator.html
+
+French:
+&copy; {0} We.Train. Tous droits réservés
+
+French -> francais

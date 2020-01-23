@@ -1,0 +1,67 @@
+<!--/*
+		Step 2 of User-Grid. Shows the basic table with the flexgrid enabled.
+*/-->
+
+
+<head data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" data-sly-unwrap>
+	<meta data-sly-call="${clientlib.all @ categories='componentlab'}" data-sly-unwrap></meta>
+</head>
+
+<script type="text/javascript">
+
+
+$CQ(function () {
+    $CQ('.user-table').flexigrid();
+});
+
+
+</script>
+
+<table class="user-table">
+	<thead>
+        <tr>
+            <th width="100">Col 1</th>
+            <th width="100">Col 2</th>
+            <th width="100">Col 3 is a long header name</th>
+            <th width="300">Col 4</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>This is data 1 with overflowing content</td>
+            <td>This is data 2</td>
+            <td>This is data 3</td>
+            <td>This is data 4</td>
+        </tr>
+        <tr>
+            <td>This is data 1</td>
+            <td>This is data 2</td>
+            <td>This is data 3</td>
+            <td>This is data 4</td>
+        </tr>
+        <tr>
+            <td>This is data 1</td>
+            <td>This is data 2</td>
+            <td>This is data 3</td>
+            <td>This is data 4</td>
+        </tr>
+        <tr>
+            <td>This is data 1</td>
+            <td>This is data 2</td>
+            <td>This is data 3</td>
+            <td>This is data 4</td>
+        </tr>
+        <tr>
+            <td>This is data 1</td>
+            <td>This is data 2</td>
+            <td>This is data 3</td>
+            <td>This is data 4</td>
+        </tr>
+        <tr>
+            <td>This is data 1</td>
+            <td>This is data 2</td>
+            <td>This is data 3</td>
+            <td>This is data 4</td>
+        </tr>
+    </tbody>
+    </table>
