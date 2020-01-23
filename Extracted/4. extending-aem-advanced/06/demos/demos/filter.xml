@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/trainingproject">
+        <exclude pattern="/apps/trainingproject/install" />
+    </filter>
+    <filter root="/apps/sling" />
+    <filter root="/etc/designs/trainingproject"/>    
+<filter root="/etc/workflow/models/stockalert" />  
+<filter root="/etc/workflow/launcher/config" />  
+<filter root="/etc/importers/polling/adobe_stock" />  
+</workspaceFilter> 
+   
+    
+   
+    
+   
+

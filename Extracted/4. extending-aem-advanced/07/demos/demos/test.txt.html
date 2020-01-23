@@ -1,0 +1,8 @@
+<!--/* To test this script, use the ScriptableTestsProvider in the Sling Junit Servlet */-->
+<!--/* http://localhost:4502/system/sling/junit/org.apache.sling.junit.scriptable.ScriptableTestsProvider.html */-->
+<!--/* curl -u admin:admin -X POST http://localhost:4502/system/sling/junit/org.apache.sling.junit.scriptable.ScriptableTestsProvider.json */-->
+
+<!--/* In order for this test to successfully pass, it must output TEST_PASSED */-->
+
+<!--/* Test to make sure Last Trade info in successfully imported */-->
+<sly data-sly-use.output="${'logic.js' @ symbol=['ADBE','MSFT','GOOG']}">${output}</sly>

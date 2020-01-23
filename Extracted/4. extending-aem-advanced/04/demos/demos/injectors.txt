@@ -1,0 +1,1 @@
+https://sling.apache.org/documentation/bundles/models.html#available-injectors

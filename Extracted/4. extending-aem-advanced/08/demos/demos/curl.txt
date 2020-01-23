@@ -1,0 +1,1 @@
+$ curl -u admin:admin -X POST -d "sling:resourceType=foundation/components/text&text=<h3>I am a new Text Component from the Sling POST servlet</h3>&textIsRich=true" http://localhost:4502/content/trainingproject/es/jcr:content/par/* 

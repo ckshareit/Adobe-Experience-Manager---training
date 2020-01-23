@@ -1,0 +1,24 @@
+<!--/* 
+	This should be located under /apps/trainingproject/tools/pagecreator/
+	
+	A resource must be created: 
+	/etc/trainingproject/pagecreator
+		+ sling:resourceType="trainingproject/tools/pagecreator
+ */-->
+ <h3>Upload a csv list of pages to be created</h3>
+<table>
+  <tr>
+    <th>Page Path, </th>
+    <th>Page Title, </th>
+    <th>Page Template, </th>
+    <th>Tag, </th>
+    <th>Auto Publish?</th>
+  </tr>
+</table>
+<br />
+<br />
+<br />
+<form action="/etc/trainingproject/pagecreator.csv.json" method="POST" enctype="multipart/form-data">
+	<input name="importer" type="file" accept=".csv">
+	<input type="submit">
+</form>

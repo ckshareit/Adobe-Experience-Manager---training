@@ -1,0 +1,4 @@
+
+Scriptable Test URL
+
+http://localhost:4502/system/sling/junit/org.apache.sling.junit.scriptable.ScriptableTestsProvider.html 

@@ -1,0 +1,6 @@
+
+Available Injectors
+https://sling.apache.org/documentation/bundles/models.html#available-injectors
+
+List of available injectors in the Felix console
+http://localhost:4502/system/console/status-slingmodels
